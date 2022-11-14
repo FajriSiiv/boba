@@ -26,7 +26,7 @@ export default function Service({
           <h3 className="capitalize">{subTitle}</h3>
         </div>
         <div className="w-1/3 flex flex-col justify-around">
-          <p className="text-gray-300 leading-relaxed w-2/3">{desc}</p>
+          <p className="text-[#A1A1A1] leading-relaxed w-2/3">{desc}</p>
           <ButtonPrimary url_to={urlText} text={btnText} />
         </div>
       </div>

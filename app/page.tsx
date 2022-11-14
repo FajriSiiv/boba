@@ -7,6 +7,7 @@ import { Suspense } from "react";
 import Service from "../components/Service";
 import ListOffer from "../components/ListOffer";
 import GridService from "../components/GridService";
+import Review from "../components/Review";
 
 const Home = () => {
   return (
@@ -24,7 +25,7 @@ const Home = () => {
       <section className="pt-20 px-20 mb-30">
         <About />
       </section>
-      <section className="pt-20 px-20 mb-30">
+      <section className="pt-20 px-20 mb-30 sm:bg-red-900">
         <Service
           btnText="More Project"
           urlText="#"
@@ -45,10 +46,13 @@ const Home = () => {
           urlText="#"
           title="Service"
           subTitle="Some of the projects we have done well"
-          desc="We can adjust your needs so that your business can grow and you can run other business"
+          desc="boba is an agency with 10+ years of experience that has helped more than 300+ projects from small to large projects"
         />
         <GridService />
       </section>
+      <div>
+        <Review />
+      </div>
     </article>
   );
 };

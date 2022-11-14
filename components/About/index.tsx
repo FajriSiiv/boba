@@ -13,11 +13,10 @@ export default function About() {
           <h3>We Always Prioritize Quality And Unique Style</h3>
         </div>
         <div className="w-1/3 flex flex-col justify-around">
-          <p className="text-gray-300 leading-relaxed ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In ullam
-            adipisci totam odio ad accusamus corrupti dolore officiis iste eum,
-            ipsam odit incidunt, delectus similique corporis? Pariatur
-            recusandae itaque nostrum!
+          <p className="text-[#A1A1A1] leading-relaxed ">
+            boba is an agency with 10+ years of experience that has helped more
+            than 300+ projects from small to large projects. We also have
+            several services that can help your business grow with us.
           </p>
           <ButtonPrimary url_to="#" text="About Us" />
         </div>

@@ -10,8 +10,8 @@ export default function Jumbotron() {
         <div className="flex items-center gap-x-10 leading-[10rem] mr-32">
           <h1 className="text-[10rem] font-bold tracking-wide">Digital</h1>
           <p className="w-80 text-sm leading-relaxed">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-            assumenda, provident quod a expedita quaerat aperiam obcaecati
+            boba is an agency with 10+ years of experience that has helped more
+            than 300+ projects from small to large projects
           </p>
         </div>
         <div className="text-[10rem] font-bold leading-[10rem] tracking-wide ml-60">

@@ -21,7 +21,7 @@ export default function ListOffer({ no = "01" }: PageProps) {
         <div className="col-span-2 relative rounded-lg block">
           <Image
             src={webD}
-            alt="https://dribbble.com/shots/19879988-Job-Platfrom-UI-landing-page-website/attachments/14977457?mode=media"
+            alt="from dribbel"
             className="h-0 transition-all group-hover:h-44 w-full object-cover object-top rounded-lg"
           />
         </div>
