@@ -1,31 +1,35 @@
 import React from "react";
-import webD from "public/images/web-contoh.jpg";
 import Image from "next/image";
 
 interface PageProps {
   no?: string;
+  title: string;
+  desc: string;
+  images: Blob | any;
 }
 
-export default function ListOffer({ no = "01" }: PageProps) {
+export default function ListOffer({
+  no = "01",
+  title,
+  desc,
+  images,
+}: PageProps) {
   return (
     <div className="h-44">
       <div className="grid grid-cols-8 justify-between items-start gap-x-10 group">
         <p className="pt-5 text-3xl font-bold col-span-1">{no}</p>
         <div className="pt-5 flex-3 col-span-4">
-          <h3 className="text-[3rem] leading-[3rem] font-bold">UIUX Design</h3>
-          <p className="text-lg mt-5 text-gray-400">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Voluptatibus laborum quas repellat.
-          </p>
+          <h3 className="text-[3rem] leading-[3rem] font-bold">{title}</h3>
+          <p className="text-lg mt-5 text-gray-400">{desc}</p>
         </div>
         <div className="col-span-2 relative rounded-lg block">
           <Image
-            src={webD}
+            src={images}
             alt="from dribbel"
             className="h-0 transition-all group-hover:h-44 w-full object-cover object-top rounded-lg"
           />
         </div>
-        <div className="col-span-1 flex justify-center items-center h-44">
+        <div className="col-span-1 flex justify-center items-center h-44 cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
