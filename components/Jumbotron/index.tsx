@@ -4,7 +4,7 @@ export default function Jumbotron() {
   return (
     <>
       <div className="px-20 h-[100vh] max-h-[900px] bg-[#0B015B] text-white flex flex-col justify-center items-center border-b-[20px] border-b-[#703EFE] w-full">
-        <div className="text-[10rem] font-bold leading-[10rem] tracking-wide">
+        <div className="md:text-[7rem] text-[10rem] font-bold leading-[10rem] tracking-wide ">
           <h1>Creative</h1>
         </div>
         <div className="flex items-center gap-x-10 leading-[10rem] mr-32">
